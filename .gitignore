@@ -30,3 +30,7 @@
 *.exe
 *.out
 *.app
+
+Client/Client/Debug/Client.tlog/
+
+*.ipch

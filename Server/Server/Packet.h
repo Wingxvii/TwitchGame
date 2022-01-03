@@ -1,12 +1,12 @@
 #pragma once
-#include <string.h>
-#define PACKET_SIZE 256
+#include <string>
+#define DATA_SIZE 504
 
 enum PacketType
 {
 	//New client init
 	INIT_CONNECTION = 0,
-	//string
+	//string - TCP
 	MESSAGE = 1,
 	//ping
 	PING = 2,
@@ -17,7 +17,7 @@ struct Packet
 {
 	unsigned int packet_type;
 	int sender = 0;
-	char data[PACKET_SIZE];
+	char data[DATA_SIZE];
 
 	void seralize(char* data)
 	{

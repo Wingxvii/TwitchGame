@@ -1,0 +1,6 @@
+﻿  Network.cpp
+C:\Users\turnt\Documents\C++\TwitchGame\Server\Server\Network.cpp(73,13): warning C4018: '<=': signed/unsigned mismatch
+C:\Users\turnt\Documents\C++\TwitchGame\Server\Server\Network.cpp(244,32): warning C4018: '<': signed/unsigned mismatch
+  main.cpp
+  Generating Code...
+  Server.vcxproj -> C:\Users\turnt\Documents\C++\TwitchGame\Server\Debug\Server.exe

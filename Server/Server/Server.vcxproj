@@ -141,6 +141,7 @@
   <ItemGroup>
     <ClInclude Include="Network.h" />
     <ClInclude Include="Packet.h" />
+    <ClInclude Include="Tokenizer.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp" />
